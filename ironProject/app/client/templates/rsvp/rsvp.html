@@ -1,0 +1,11 @@
+<template name="Rsvp">
+  <div class="rsvp">
+   {{> quickForm
+		collection="Rsvps"
+		id="insertRsvpForm"
+		type="method"
+		meteormethod="submitRsvp"
+		omitFields="createAt"
+   }}
+  </div>
+</template>
